@@ -19,6 +19,10 @@ explorer .\\steamapps\\content\\app_620980\\depot_620981`;
 	$: scripturl = `data:text/plain;base64,${btoa(script)}`;
 </script>
 
+<svelte:head>
+	<title>Beat Saber download script generator</title>
+</svelte:head>
+
 <div class="prose my-8 mx-auto">
 	<table>
 		<tbody>
